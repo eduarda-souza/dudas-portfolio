@@ -18,7 +18,7 @@ const Presentation = () => {
   return (
     <div className="flex flex-col justify-between py-[83px] md:pt-24 md:pb-0">
       <div className="flex flex-col h-full gap-[18px]">
-        <h1 className="text-pink-500 text-[64px] font-black ">{t.header.greeting}</h1>
+        <h1 className="text-primary text-[64px] font-black ">{t.header.greeting}</h1>
         <h1 className="text-secondary text-4xl md:text-[40px] font-semibold md:leading-none">
           <span>{t.header.namePrefix}</span>
           <span className="font-extrabold">{t.header.role}</span>
