@@ -9,7 +9,7 @@ export default {
         sans: ['"Montserrat"', '"sans-serif"', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: "#7C3AED",
+        primary: "#FF41A6",
         secondary: "#2D3864",
       },
     },
