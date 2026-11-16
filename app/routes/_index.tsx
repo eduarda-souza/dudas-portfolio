@@ -40,6 +40,22 @@ export default function Index() {
         <Header />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <CaseCard
+            title={t.cases.elearning.title}
+            description={t.cases.elearning.description}
+            link="/cases/dataanalysis"
+            tags={[...t.cases.elearning.tags]}
+          >
+            <img
+              src="/images/dataanalisys.webp"
+              alt="Product data analysis case preview"
+              width={281}
+              height={212}
+              loading="lazy"
+              decoding="async"
+              className="h-[212px] w-[281px] object-contain"
+            />
+          </CaseCard>
+          <CaseCard
             title={t.cases.telemedicine.title}
             description={t.cases.telemedicine.description}
             link="/cases/hrtechnology"
@@ -70,22 +86,6 @@ export default function Index() {
               loading="lazy"
               decoding="async"
               className="w-[281px] h-[212px]"
-            />
-          </CaseCard>
-          <CaseCard
-            title={t.cases.elearning.title}
-            description={t.cases.elearning.description}
-            link="/cases/dataanalysis"
-            tags={[...t.cases.elearning.tags]}
-          >
-            <img
-              src="/images/dataanalisys.webp"
-              alt="Product data analysis case preview"
-              width={281}
-              height={212}
-              loading="lazy"
-              decoding="async"
-              className="h-[212px] w-[281px] object-contain"
             />
           </CaseCard>
           <CaseCard
