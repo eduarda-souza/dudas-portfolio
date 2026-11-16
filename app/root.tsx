@@ -16,6 +16,8 @@ import { getLocaleFromRequest } from "~/i18n/locales";
 import stylesheet from "~/tailwind.css";
 
 export const links: LinksFunction = () => [
+  { rel: "preconnect", href: "https://fonts.googleapis.com" },
+  { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
   { rel: "stylesheet", href: stylesheet },
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
 ];
@@ -35,7 +37,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="h-full">
+      <body className="h-full bg-[#FFFDF9]">
         <I18nProvider locale={locale}>
           <Outlet />
         </I18nProvider>

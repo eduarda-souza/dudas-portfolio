@@ -31,6 +31,7 @@ export interface Translation {
   };
   caseCard: {
     comingSoon: string;
+    viewCase: string;
   };
   language: {
     label: string;

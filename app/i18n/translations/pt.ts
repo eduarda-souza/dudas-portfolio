@@ -4,34 +4,35 @@ export const pt: Translation = {
   meta: {
     title: "Portfolio | Eduarda",
     description:
-      "Sou uma profissional generalista que aprecia participar de todas as etapas do guarda-chuva de UX, desde a imersão no contexto do usuário até o design visual (UI). Busco proporcionar experiências incríveis com ideias inovadoras e estratégias inteligentes.",
+      "Sou uma profissional generalista que aprecia participar de todas as etapas do guarda-chuva de UX, desde a imersão no contexto do usuário até o design visual. Busco proporcionar experiências incríveis com ideias inovadoras e estratégias inteligentes.",
   },
   header: {
     greeting: "Oie!",
-    namePrefix: "Meu nome é Eduarda de Souza e sou ",
-    role: "UX Designer",
+    namePrefix:
+      "Transformo desafios complexos de negócio em experiências digitais intuitivas.",
+    role: "",
     bio:
-      "Sou uma profissional generalista que aprecia participar de todas as etapas do guarda-chuva de UX, desde a imersão no contexto do usuário até o design visual (UI).",
+      "Sou Product Designer especializada em SaaS B2B Enterprise, Product Discovery e Design Systems.",
     bioContinued:
-      "Busco proporcionar experiências incríveis com ideias inovadoras e estratégias inteligentes.",
+      "Trabalho em parceria com equipes multidisciplinares para criar produtos que equilibram as necessidades dos usuários, os objetivos de negócio e as restrições técnicas.",
     checkProjects: "Confira alguns projetos",
     resume: "Currículo",
   },
   cases: {
     telemedicine: {
-      title: "Dashboard",
-      description: "Análise socioeconômica e saúde da população",
-      tags: ["Web", "B2B", "Telemedicina"],
+      title: "Onboarding",
+      description: "Redução do tempo de implementação de semanas para minutos",
+      tags: ["Web", "B2B", "Plataforma de RH"],
     },
     logistics: {
       title: "Plataforma",
       description: "Gestão de entregas para motoristas autônomos",
-      tags: ["Web responsivo", "B2B", "Logística"],
+      tags: ["WEB", "Mobile", "B2B", "Logística"],
     },
     elearning: {
-      title: "Plataforma",
-      description: "Ambiente de cursos para educação empresarial",
-      tags: ["Web responsivo", "B2B", "E-learning"],
+      title: "Análise de dados de produto",
+      description: "Do dado bruto às hipóteses de produto",
+      tags: ["B2B", "Estratégia de UX"],
     },
     gamification: {
       title: "Gamificação",
@@ -47,6 +48,7 @@ export const pt: Translation = {
   },
   caseCard: {
     comingSoon: "Em breve",
+    viewCase: "Ver case",
   },
   language: {
     label: "Idioma",

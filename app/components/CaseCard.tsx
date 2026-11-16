@@ -3,7 +3,6 @@ import { PropsWithChildren } from "react";
 
 import { useI18n } from "~/i18n/I18nProvider";
 
-import { FullExternalLink } from "./icons/FullExternalLink";
 import { TagList } from "./Tags";
 
 interface Props {
@@ -18,22 +17,25 @@ const ComingSoon = () => {
   const { t } = useI18n();
 
   return (
-    <div className="w-[87px] h-[31px] px-3 py-1.5 bg-amber-500 rounded-md justify-center items-center gap-3 inline-flex absolute md:relative left-0 top-0">
-      <div className="text-center text-white text-xs font-bold font-['Montserrat']">
-        {t.caseCard.comingSoon}
+    <div className="h-[31px] w-fit min-w-[120px] flex-none px-4 py-1.5 bg-amber-500 rounded-md justify-center items-center inline-flex absolute md:relative left-0 top-0">
+      <div className="whitespace-nowrap text-center text-white text-xs font-bold font-['Montserrat']">
+        {t.caseCard.comingSoon.replace(" ", "\u00A0")}
       </div>
     </div>
   );
 };
 
-const InteractiveTags = ({ link }: { link?: string }) =>
-  link ? (
-    <span className="p-3 rounded-full bg-violet-400 inline-flex absolute right-0 bottom-0 md:relative md:self-end">
-      <FullExternalLink size={17} />
+const InteractiveTags = ({ link }: { link?: string }) => {
+  const { t } = useI18n();
+
+  return link ? (
+    <span className="inline-flex h-[31px] w-fit min-w-[120px] flex-none items-center justify-center rounded-md bg-violet-400 px-4 py-1.5 text-xs font-bold text-white absolute right-0 bottom-0 md:relative md:left-0 md:top-0">
+      {t.caseCard.viewCase}
     </span>
   ) : (
     <ComingSoon />
   );
+};
 
 export function CaseCard({
   className,
@@ -43,11 +45,13 @@ export function CaseCard({
   children,
   link,
 }: PropsWithChildren<Props>) {
+  const isExternal = link?.startsWith("http");
+
   return (
     <Link
       to={link ?? "#"}
-      target="_blank"
-      rel="noreferrer"
+      target={isExternal ? "_blank" : undefined}
+      rel={isExternal ? "noreferrer" : undefined}
       className={`flex flex-col md:flex-row-reverse gap-8 items-center bg-secondary text-white p-7 md:p-8 rounded-2xl shadow-md duration-300 hover:scale-[102%] hover:shadow-xl hover:shadow-xl overflow-hidden ${className}`}
     >
       <div className="flex flex-col justify-between gap-10 w-full">

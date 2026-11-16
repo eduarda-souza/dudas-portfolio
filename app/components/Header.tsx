@@ -44,7 +44,11 @@ export function Header() {
       <img
         className="max-md:-ml-5 max-w-[180px] max-h-[302px] md:max-w-[384px] md:max-h-[644px] max-md:rounded-r-3xl md:rounded-b-3xl md:mx-28 object-cover"
         alt=""
-        src="images/profile-picture.jpeg"
+        src="/images/profile-picture.jpeg"
+        width={724}
+        height={1086}
+        decoding="async"
+        fetchPriority="high"
       />
       <Navigation />
       <div className="flex text-primary items-center text-xl font-bold md:hidden mt-12">
@@ -66,6 +70,16 @@ function Navigation() {
         <MenuItem>
           <Link
             className="flex flex-1 underline text-secondary text-xl font-semibold font-sans"
+            to="/EduardaDeSouza-Curriculum.pdf"
+            target="_blank"
+          >
+            {t.header.resume}
+          </Link>
+          <Download />
+        </MenuItem>
+        <MenuItem>
+          <Link
+            className="flex flex-1 underline text-secondary text-xl font-semibold font-sans"
             to="https://www.linkedin.com/in/eduarda-desouza/"
             target="_blank"
             rel="noreferrer"
@@ -84,16 +98,6 @@ function Navigation() {
             Medium
           </Link>
           <ArrowExternalLink />
-        </MenuItem>
-        <MenuItem>
-          <Link
-            className="flex flex-1 underline text-secondary text-xl font-semibold font-sans"
-            to="/EduardaDeSouza-Curriculum.pdf"
-            target="_blank"
-          >
-            {t.header.resume}
-          </Link>
-          <Download />
         </MenuItem>
       </ul>
     </nav>

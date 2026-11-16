@@ -22,7 +22,7 @@ export function LanguageSelector() {
       role="group"
       aria-label={t.language.label}
     >
-      {(["pt", "en"] as const).map((option) => (
+      {(["en", "pt"] as const).map((option) => (
         <button
           key={option}
           type="button"

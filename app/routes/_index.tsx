@@ -42,39 +42,50 @@ export default function Index() {
           <CaseCard
             title={t.cases.telemedicine.title}
             description={t.cases.telemedicine.description}
-            link="https://eduardadesouza.notion.site/Dashboard-de-Telemedicina-5792317104b14b7cbf2e14f92b370a1b"
+            link="/cases/hrtechnology"
             tags={[...t.cases.telemedicine.tags]}
           >
             <img
-              src="images/telemedicina.png"
-              srcSet="images/telemedicina1.5x.png 1.5x, images/telemedicina2x.png 2x, images/telemedicina3x.png 3x"
-              alt="case"
-              className="w-[281px] h-[212px]"
+              src="/images/reducing.webp"
+              alt="Onboarding case preview"
+              width={281}
+              height={212}
+              loading="lazy"
+              decoding="async"
+              className="w-[281px] h-[212px] object-contain"
             />
           </CaseCard>
           <CaseCard
             title={t.cases.logistics.title}
             description={t.cases.logistics.description}
-            link="https://eduardadesouza.notion.site/Agile-Flex-Plataforma-log-stica-8fd63c930af24673b8485b3bb3518518"
+            link="/cases/logistics"
             tags={[...t.cases.logistics.tags]}
           >
             <img
               src="images/logistica.png"
               srcSet="images/logistica1.5x.png 1.5x, images/logistica2x.png 2x, images/logistica3x.png 3x"
               alt="case"
+              width={281}
+              height={212}
+              loading="lazy"
+              decoding="async"
               className="w-[281px] h-[212px]"
             />
           </CaseCard>
           <CaseCard
             title={t.cases.elearning.title}
             description={t.cases.elearning.description}
+            link="/cases/dataanalysis"
             tags={[...t.cases.elearning.tags]}
           >
             <img
-              src="images/elearning.png"
-              srcSet="images/elearning2x.png 2x, images/logistica2x.png 2x, images/elearning3x.png 3x"
-              alt="case"
-              className="w-[281px] h-[212px]"
+              src="/images/dataanalisys.webp"
+              alt="Product data analysis case preview"
+              width={281}
+              height={212}
+              loading="lazy"
+              decoding="async"
+              className="h-[212px] w-[281px] object-contain"
             />
           </CaseCard>
           <CaseCard
@@ -86,6 +97,10 @@ export default function Index() {
               src="images/elearning.png"
               srcSet="images/elearning2x.png 2x, images/logistica2x.png 2x, images/elearning3x.png 3x"
               alt="case"
+              width={281}
+              height={212}
+              loading="lazy"
+              decoding="async"
               className="w-[281px] h-[212px]"
             />
           </CaseCard>
@@ -99,7 +114,7 @@ export default function Index() {
         <div className="flex grow justify-start items-center border-t border-secondary border-opacity-10 py-5 md:px-5 md:mb-2 gap-1">
           <CopyRight />
           <span className="text-slate-700 text-[10px] font-light font-sans">
-            Eduarda de Souza, 2023
+            Eduarda de Souza, 2026
           </span>
         </div>
       </footer>
