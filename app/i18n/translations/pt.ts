@@ -35,9 +35,9 @@ export const pt: Translation = {
       tags: ["B2B", "Estratégia de UX"],
     },
     gamification: {
-      title: "Gamificação",
-      description: "Ambiente de cursos para educação empresarial",
-      tags: ["Web responsivo", "B2B", "E-learning"],
+      title: "Copiloto",
+      description: "Encontrando o norte de um produto de IA para RH",
+      tags: ["IA", "B2B", "Tecnologia de RH"],
     },
   },
   contact: {
