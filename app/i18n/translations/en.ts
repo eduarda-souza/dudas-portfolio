@@ -35,8 +35,8 @@ export const en: Translation = {
       tags: ["B2B", "UX Strategy"],
     },
     gamification: {
-      title: "Copilot – The AI for HR",
-      description: "Finding the north for an AI product in HR",
+      title: "Copilot",
+      description: "The AI for HR",
       tags: ["AI", "B2B", "HR Technology"],
     },
   },
