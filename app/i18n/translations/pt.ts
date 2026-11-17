@@ -35,8 +35,8 @@ export const pt: Translation = {
       tags: ["B2B", "Estratégia de UX"],
     },
     gamification: {
-      title: "Copiloto – A IA para o RH",
-      description: "Encontrando o norte de um produto de IA para RH",
+      title: "Copiloto",
+      description: "A IA para o RH",
       tags: ["IA", "B2B", "Tecnologia de RH"],
     },
   },
