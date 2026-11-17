@@ -494,13 +494,7 @@ export const copilotCasePt: Record<string, string> = {
   "Copilot – The AI for HR": "Copiloto – A IA para o RH",
   "Here I share how I helped a brand-new AI product find its direction, and how that turned into a clear roadmap and teams working together.":
     "Aqui eu conto como ajudei um produto de IA recém-nascido a encontrar sua direção, e como isso virou um roadmap claro e times trabalhando juntos.",
-  "How is my team doing this month?": "Como está meu time este mês?",
-  Copilot: "Copiloto",
-  "Here is an overview of your team, with the points that need your attention first.":
-    "Aqui está uma visão geral do seu time, com os pontos que precisam da sua atenção primeiro.",
-  "Strategic data": "Dados estratégicos",
   "Faster decisions": "Decisões mais rápidas",
-  "Team insights": "Insights do time",
 
   "In this project, my work was:": "Neste projeto, meu trabalho foi:",
   "Helping shape the business model with product leadership": "Ajudar a modelar o negócio junto com a liderança de produto",

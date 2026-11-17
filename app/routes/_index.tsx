@@ -94,16 +94,26 @@ export default function Index() {
             link="/cases/copilot"
             tags={[...t.cases.gamification.tags]}
           >
-            <img
-              src="images/elearning.png"
-              srcSet="images/elearning2x.png 2x, images/logistica2x.png 2x, images/elearning3x.png 3x"
-              alt="case"
-              width={281}
-              height={212}
-              loading="lazy"
-              decoding="async"
-              className="w-[281px] h-[212px]"
-            />
+            <div className="flex w-full max-w-[281px] flex-col items-center gap-4">
+              <img
+                src="/images/copilot-suggestion.png"
+                alt=""
+                width={560}
+                height={64}
+                loading="lazy"
+                decoding="async"
+                className="w-[92%] -rotate-2 rounded-md shadow-lg"
+              />
+              <img
+                src="/images/copilot-hint.png"
+                alt="Copilot suggesting the next question to ask"
+                width={380}
+                height={180}
+                loading="lazy"
+                decoding="async"
+                className="w-full rounded-xl shadow-xl ring-1 ring-white/10"
+              />
+            </div>
           </CaseCard>
         </div>
         <ContactSection />
