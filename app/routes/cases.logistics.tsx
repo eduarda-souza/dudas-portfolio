@@ -459,7 +459,7 @@ export default function LogisticsCase() {
 
       <footer className="flex justify-end pt-12">
         <Link
-          to="/cases/dataanalysis"
+          to="/cases/copilot"
           className="text-lg font-bold text-secondary underline underline-offset-4"
         >
           Next Case →

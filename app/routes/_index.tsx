@@ -91,6 +91,7 @@ export default function Index() {
           <CaseCard
             title={t.cases.gamification.title}
             description={t.cases.gamification.description}
+            link="/cases/copilot"
             tags={[...t.cases.gamification.tags]}
           >
             <img

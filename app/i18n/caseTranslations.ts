@@ -487,3 +487,123 @@ export const dataAnalysisCasePt: Record<string, string> = {
   "One of the strongest findings was that the biggest driver of churn wasn't the product itself, but the path to reach it. That shifted the conversation from adding features to reducing friction in implementation, support and the first steps of use.":
     "Uma das descobertas mais fortes foi que o maior motor de churn não era o produto em si, mas o caminho até ele. Isso mudou a conversa de adicionar funcionalidades para reduzir o atrito na implantação, no suporte e nos primeiros passos de uso.",
 };
+
+export const copilotCasePt: Record<string, string> = {
+  ...commonCasePt,
+  "B2B · AI · HR Technology": "B2B · IA · Tecnologia de RH",
+  "Copilot – The AI for HR": "Copiloto – A IA para o RH",
+  "Here I share how I helped a brand-new AI product find its direction, and how that turned into a clear roadmap and teams working together.":
+    "Aqui eu conto como ajudei um produto de IA recém-nascido a encontrar sua direção, e como isso virou um roadmap claro e times trabalhando juntos.",
+  "How is my team doing this month?": "Como está meu time este mês?",
+  Copilot: "Copiloto",
+  "Here is an overview of your team, with the points that need your attention first.":
+    "Aqui está uma visão geral do seu time, com os pontos que precisam da sua atenção primeiro.",
+  "Strategic data": "Dados estratégicos",
+  "Faster decisions": "Decisões mais rápidas",
+  "Team insights": "Insights do time",
+
+  "In this project, my work was:": "Neste projeto, meu trabalho foi:",
+  "Helping shape the business model with product leadership": "Ajudar a modelar o negócio junto com a liderança de produto",
+  "Finding opportunities for a product that was just starting": "Encontrar oportunidades para um produto que estava só começando",
+  "Reading the product data to understand how people were using it": "Ler os dados do produto para entender como as pessoas estavam usando",
+  "Leading a discovery with every area of the company": "Conduzir um discovery com todas as áreas da empresa",
+  "Turning what we learned into a roadmap": "Transformar o que aprendemos em roadmap",
+  "Getting business, product, technology and sales on the same page": "Colocar negócio, produto, tecnologia e vendas na mesma página",
+
+  Overview: "Visão geral",
+  "Let me start with what Copilot is. It's an AI that lives inside HR platforms and helps managers in their day-to-day. Think of a manager who needs to understand how their team is doing, or make a decision about someone, and doesn't have time to go through a bunch of reports. That's where Copilot comes in.":
+    "Deixa eu começar contando o que é o Copiloto. Ele é uma inteligência artificial que fica dentro das plataformas de RH e ajuda os gestores no dia a dia. Pensa naquele gestor que precisa entender como o time está, ou tomar uma decisão sobre alguém, e não tem tempo de abrir um monte de relatórios. É aí que o Copiloto entra.",
+  "When I joined, the product was very new and a lot was still open: who it should serve first, which problem it solves best and how it becomes a business. So my work started right there: helping model the business, understanding the opportunities and looking at what the data was telling us.":
+    "Quando eu entrei, o produto era muito novo e muita coisa ainda estava em aberto: quem ele deveria atender primeiro, qual problema resolve melhor e como vira um negócio. Então meu trabalho começou bem aí: ajudar a modelar o negócio, entender as oportunidades e olhar o que os dados estavam dizendo pra gente.",
+
+  "What Copilot does for managers": "O que o Copiloto faz pelos gestores",
+  "Strategic data, faster": "Dados estratégicos, mais rápido",
+  "Instead of digging through reports and dashboards, the manager just asks.":
+    "Em vez de garimpar relatórios e dashboards, o gestor simplesmente pergunta.",
+  "The answer comes with context, right when the decision needs to be made.":
+    "A resposta vem com contexto, bem na hora em que a decisão precisa ser tomada.",
+  "Closer to the team": "Mais perto do time",
+  "More information about each person on the team, so the manager can lead people, not just processes.":
+    "Mais informação sobre cada pessoa do time, pra que o gestor lidere pessoas, e não só processos.",
+
+  "The Challenge": "O desafio",
+  "The question that guided me": "A pergunta que me guiou",
+  "How do we turn a manager's first try into a habit they don't want to give up?":
+    "Como fazer o primeiro uso do gestor virar um hábito do qual ele não quer abrir mão?",
+  "People were already trying Copilot. What I needed to understand was why they weren't staying, and help the whole company agree on what the product had to become to earn a place in a manager's routine.":
+    "As pessoas já estavam experimentando o Copiloto. O que eu precisava entender era por que elas não ficavam, e ajudar a empresa toda a concordar sobre o que o produto precisava se tornar pra conquistar um espaço na rotina do gestor.",
+
+  "What the data showed": "O que os dados mostraram",
+  "Activation without retention": "Ativação sem retenção",
+  "When I looked at the product data, one thing stood out right away: people were finding Copilot and trying it, but they weren't coming back.":
+    "Quando olhei os dados do produto, uma coisa saltou aos olhos logo de cara: as pessoas encontravam o Copiloto e experimentavam, mas não voltavam.",
+  Activation: "Ativação",
+  Happening: "Acontece",
+  "Managers find Copilot and give it a try. The curiosity is there.":
+    "Os gestores encontram o Copiloto e testam. A curiosidade está lá.",
+  Retention: "Retenção",
+  "Not yet": "Ainda não",
+  "That first use doesn't become a habit. They try it once and don't come back.":
+    "Esse primeiro uso não vira hábito. Eles testam uma vez e não voltam.",
+  "Our reading": "Nossa leitura",
+  "Shallow value": "Valor ainda raso",
+  "We believe what we deliver today is still too shallow to become part of a manager's day.":
+    "A gente acredita que o que entregamos hoje ainda é raso demais pra entrar no dia a dia do gestor.",
+  "That changed the question for us. The problem wasn't getting managers to try Copilot. It was giving them a reason to come back.":
+    "Isso mudou a pergunta pra gente. O problema não era fazer o gestor experimentar o Copiloto, e sim dar a ele um motivo pra voltar.",
+
+  "Bringing every area to the table": "Trazendo todas as áreas pra mesa",
+  "A new product can't find its way inside just one team. So I led a discovery with business, product, technology and sales, so we could decide together where Copilot should go.":
+    "Um produto novo não encontra seu caminho dentro de um time só. Por isso conduzi um discovery com negócio, produto, tecnologia e vendas, pra gente decidir junto pra onde o Copiloto deveria ir.",
+  Business: "Negócio",
+  Viability: "Viabilidade",
+  "The business model, the positioning and what makes the product sustainable.":
+    "O modelo de negócio, o posicionamento e o que torna o produto sustentável.",
+  Product: "Produto",
+  Value: "Valor",
+  "The managers' real problems and where Copilot actually helps.":
+    "Os problemas reais dos gestores e onde o Copiloto ajuda de verdade.",
+  Technology: "Tecnologia",
+  Feasibility: "Viabilidade técnica",
+  "What we can really do with AI and the data inside the platforms.":
+    "O que dá pra fazer de verdade com IA e com os dados das plataformas.",
+  Sales: "Vendas",
+  Market: "Mercado",
+  "What customers ask for, what makes them hesitate and what sells.":
+    "O que os clientes pedem, o que os faz hesitar e o que vende.",
+
+  Method: "Método",
+  "How we went from diagnosis to direction": "Como fomos do diagnóstico à direção",
+  "Reading the data together": "Ler os dados juntos",
+  "First, everyone looked at the same diagnosis: activation without retention.":
+    "Primeiro, todo mundo olhou pro mesmo diagnóstico: ativação sem retenção.",
+  "Mapping opportunities": "Mapear oportunidades",
+  "Then each area shared where it saw Copilot creating real value.":
+    "Depois, cada área trouxe onde enxergava o Copiloto gerando valor de verdade.",
+  "Defining the north": "Definir o norte",
+  "Together we decided what the product is, who it serves first and what it shouldn't try to be.":
+    "Juntos, decidimos o que o produto é, quem ele atende primeiro e o que ele não deve tentar ser.",
+  "Building the roadmap": "Montar o roadmap",
+  "Finally, that direction became a short roadmap with clear priorities, not a wish list of features.":
+    "Por fim, essa direção virou um roadmap enxuto, com prioridades claras, e não uma lista de desejos de funcionalidades.",
+
+  Impact: "Impacto",
+  "What changed": "O que mudou",
+  "This discovery had a direct impact on business decisions and on the product roadmap. In practice, we came out with:":
+    "Esse discovery teve impacto direto nas decisões de negócio e no roadmap do produto. Na prática, a gente saiu com:",
+  "A clear north": "Um norte claro",
+  "A vision everyone shares, which helps us decide and say no to what doesn't fit.":
+    "Uma visão que todo mundo compartilha, que ajuda a decidir e a dizer não pro que não se encaixa.",
+  "A concise roadmap": "Um roadmap conciso",
+  "Fewer bets, but deeper ones, focused on the value that brings managers back.":
+    "Menos apostas, mas mais profundas, focadas no valor que faz o gestor voltar.",
+  "More integrated teams": "Times mais integrados",
+  "Business, product, technology and sales speaking the same language and rowing in the same direction.":
+    "Negócio, produto, tecnologia e vendas falando a mesma língua e remando pro mesmo lado.",
+
+  Outcome: "Resultado",
+  "Copilot is still at the beginning of its story, and honestly, that's the most exciting part. Instead of piling on features to chase usage, we now have a shared north and a roadmap focused on depth: delivering value strong enough to bring managers back.":
+    "O Copiloto ainda está no começo da sua história e, sinceramente, essa é a parte mais legal. Em vez de empilhar funcionalidades atrás de uso, hoje a gente tem um norte compartilhado e um roadmap focado em profundidade: entregar um valor forte o suficiente pra fazer o gestor voltar.",
+  "For me, this project made one thing clear: in a new product, my work goes way beyond screens. It's about reading the signals, bringing the right people together and helping the company decide what to build, and what not to.":
+    "Pra mim, esse projeto deixou uma coisa clara: num produto novo, meu trabalho vai muito além das telas. Ele está em ler os sinais, juntar as pessoas certas e ajudar a empresa a decidir o que construir, e o que não construir.",
+};
