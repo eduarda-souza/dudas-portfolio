@@ -180,34 +180,25 @@ export default function CopilotCase() {
             working together.
           </p>
         </div>
-        <div
-          aria-hidden="true"
-          className="rounded-[32px] bg-secondary p-7 md:p-10"
-        >
-          <div className="space-y-4">
-            <div className="ml-auto w-fit max-w-[85%] rounded-2xl rounded-br-md bg-white px-5 py-3 text-sm font-semibold text-secondary">
-              How is my team doing this month?
-            </div>
-            <div className="w-fit max-w-[90%] rounded-2xl rounded-bl-md bg-primary px-5 py-4 text-sm leading-relaxed text-white">
-              <p className="text-xs font-black uppercase tracking-[0.18em] text-white/70">
-                Copilot
-              </p>
-              <p className="mt-2">
-                Here is an overview of your team, with the points that need
-                your attention first.
-              </p>
-            </div>
-            <div className="flex flex-wrap gap-2 pt-2">
-              <span className="rounded-full border border-white/20 px-4 py-2 text-xs font-semibold text-white/80">
-                Strategic data
-              </span>
-              <span className="rounded-full border border-white/20 px-4 py-2 text-xs font-semibold text-white/80">
-                Faster decisions
-              </span>
-              <span className="rounded-full border border-white/20 px-4 py-2 text-xs font-semibold text-white/80">
-                Team insights
-              </span>
-            </div>
+        <div className="rounded-[32px] bg-secondary px-7 py-12 md:px-12 md:py-16">
+          <div className="mx-auto flex max-w-[440px] flex-col items-center gap-6">
+            <img
+              src="/images/copilot-suggestion.png"
+              alt=""
+              width={560}
+              height={64}
+              decoding="async"
+              className="w-[92%] -rotate-2 rounded-lg shadow-lg"
+            />
+            <img
+              src="/images/copilot-hint.png"
+              alt="Copilot suggesting the next question to ask"
+              width={380}
+              height={180}
+              decoding="async"
+              fetchPriority="high"
+              className="w-full rounded-2xl shadow-xl ring-1 ring-white/10"
+            />
           </div>
         </div>
       </header>
